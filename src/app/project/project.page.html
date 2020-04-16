@@ -1,0 +1,41 @@
+<!-- <ion-header>
+  <ion-item class="header-item">
+    <ion-button href="home" color="dark">
+      <ion-icon name="globe"></ion-icon>
+    </ion-button>
+
+    <ion-button href="/project-menu" color="dark">
+      <ion-icon name="book"></ion-icon>
+    </ion-button>
+
+    <ion-searchbar color="light" class="searchbar-input-container" mode="ios" style="color: black;"></ion-searchbar>
+    <ion-button color="secondary" style="height: 55%;" href="login.page.html">Login</ion-button>
+
+    <ion-button href="#" color="dark">
+      <ion-icon name="person"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-header> -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Header</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col>
+        <ion-img [src]="project.img_workplace"></ion-img>
+      </ion-col>
+      <ion-col>
+        {{id}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>
